@@ -29,6 +29,7 @@
 		813F23861ECA0FF200108A8C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		813F238D1ECA100200108A8C /* LineWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineWriter.swift; sourceTree = "<group>"; };
 		813F238E1ECA100200108A8C /* LineReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineReader.swift; sourceTree = "<group>"; };
+		81B2891C1ED5AD0B00C3569B /* l-systems.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "l-systems.txt"; path = "FileReadingWritingExample/l-systems.txt"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +46,7 @@
 		813F237A1ECA0FF200108A8C = {
 			isa = PBXGroup;
 			children = (
+				81B2891C1ED5AD0B00C3569B /* l-systems.txt */,
 				813F23851ECA0FF200108A8C /* FileReadingWritingExample */,
 				813F23841ECA0FF200108A8C /* Products */,
 			);
@@ -263,6 +265,7 @@
 				813F238C1ECA0FF200108A8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
