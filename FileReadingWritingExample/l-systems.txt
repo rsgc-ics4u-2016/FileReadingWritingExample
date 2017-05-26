@@ -1,5 +1,50 @@
 [
 <
+author:Brendan Leder
+description:A snowflake
+angle:30
+axiom:[F][++F][++++F][++++++F][++++++++F][++++++++++F]
+rules:
+{
+F=F[--F][++F]FF
+}
+generations:4
+>
+direction:00
+length:50
+length_reduction:3
+x:300
+y:200
+]
+
+[
+<
+author:Brendan Leder
+description:A tall leaning tree (Modified)
+angle:22
+axiom:F
+rules:
+{
+F=1/1FF-[2-F+F+F]+[3+F-F-F]
+F=1/1FF-[2-F+F+F]+[3+F-F-F]
+F=1/1FF+[2+F-F-F]-[3-F+F+F]
+}
+generations:4
+>
+colors:
+{
+1=50,50,20
+2=100,100,85
+3=120,95,90
+}
+direction:90
+length:40
+length_reduction:2
+x:400
+y:200
+]
+[
+<
 author:Helge von Koch
 description:Koch Snowflake
 angle:60
