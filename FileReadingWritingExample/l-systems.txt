@@ -120,12 +120,14 @@ y:200
 <
 author:Jeffrey Goldsmith
 description:A blue flower like L-System
-angle:22
+angle:10
 axiom:FX
 rules:
 {
-X=1XX
-F=F+[2FFFF]
+X=1/1XX
+X=1/1-XX
+X=1/1+XX
+F=F++[2FFFF]
 }
 generations:6
 >
