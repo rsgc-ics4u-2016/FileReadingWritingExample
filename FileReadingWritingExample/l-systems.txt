@@ -60,39 +60,12 @@ generations:5
 colors:
 {
 0=10,40,28
-2=119,100,44
-3=119,58,56
-}
-direction:90
-length:300
-length_reduction:3
-x:400
-y:600
-]
-[
-<
-author:Jamie Haberman
-description:A spindly yellowish shrub
-angle:25
-axiom:X
-rules:
-{
-X=1/0+F1[--X]-F2[++X]+F[--X]-F3[++X]
-X=1/0+F1[--X]-F+F2[--X]-F3[++X]
-X=1/0+F1[--X]-F2[++X]+F3[--X]-F
-F=1/0FF
-}
-generations:5
->
-colors:
-{
-0=10,40,28
 1=119,100,44
 2=119,58,56
 }
 direction:90
 length:300
-length_reduction:3
+length_reduction:2.6
 x:400
 y:600
 ]
@@ -119,7 +92,7 @@ colors:
 }
 direction:270
 length:300
-length_reduction:2
+length_reduction:2.2
 x:400
 y:0
 ]
@@ -147,7 +120,7 @@ colors:
 }
 direction:90
 length:30
-length_reduction:2
+length_reduction:1.6
 x:0
 y:0
 ]
@@ -173,7 +146,7 @@ colors:
 3=145,87,8
 4=135,84,41
 5=116,26,100
-5=151,71,53
+6=151,71,53
 }
 direction:270
 length:20
