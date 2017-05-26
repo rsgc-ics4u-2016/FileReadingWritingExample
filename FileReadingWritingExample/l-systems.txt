@@ -153,6 +153,36 @@ y:0
 ]
 [
 <
+author:Hana Zhauken
+description:A coniferous tree
+angle:21
+axiom:F
+rules:
+{
+F=1/3F[++1F[X]][+2F][-4F][--5F[X]]6F
+F=1/3F[+1F][+2F][-4F]5F
+F=1/3F[+1F][-2F][--6F]4F
+X=1/X
+}
+generations:5
+>
+colors:
+{
+1=120,100,61
+2=134,97,46
+3=145,87,8
+4=135,84,41
+5=116,26,100
+5=151,71,53
+}
+direction:270
+length:20
+length_reduction:1.25
+x:0
+y:0
+]
+[
+<
 author:Athena Foo
 description:A tall reed-like form
 angle:10
