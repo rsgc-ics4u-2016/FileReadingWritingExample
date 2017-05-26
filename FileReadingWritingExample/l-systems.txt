@@ -1,5 +1,44 @@
 [
 <
+author: Andrew Elder
+description:Bird's Nest
+angle:10
+axiom:F+Y+F
+rules:
+{
+F=F+[F-F]+F
+Y=F-[F+F]-F
+}
+generations:3
+>
+direction:0
+length:1000
+length_reduction:2
+x:100
+y:250
+]
+[
+<
+author:Andrew Elder
+description:Stick like form
+angle:22.5
+axiom:F
+rules:
+{
+F=5/F[+F][-F]
+F=2/F-[-F]F
+F=2/F-F[+F]F
+}
+generations:4
+>
+direction:0
+length:300
+length_reduction:3
+x:100
+y:250
+]
+[
+<
 author:Brendan Leder
 description:A snowflake
 angle:30
@@ -404,6 +443,8 @@ B=A-B-A
 generations:4
 >
 direction:0
-length:300
+length:1000 
 length_reduction:3
+x:100
+y:250
 ]
