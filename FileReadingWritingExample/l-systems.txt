@@ -1,7 +1,26 @@
 [
 <
 author:Brendan Leder
-description:A tall leaning tree
+description:A snowflake
+angle:30
+axiom:[F][++F][++++F][++++++F][++++++++F][++++++++++F]
+rules:
+{
+F=F[--F][++F]FF
+}
+generations:4
+>
+direction:00
+length:50
+length_reduction:3
+x:300
+y:200
+]
+
+[
+<
+author:Brendan Leder
+description:A tall leaning tree (Modified)
 angle:22
 axiom:F
 rules:
