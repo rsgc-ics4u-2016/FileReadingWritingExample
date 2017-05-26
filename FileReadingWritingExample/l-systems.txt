@@ -1,22 +1,28 @@
 [
 <
-author:Helge von Koch
-description:Koch Snowflake
-angle:60
-axiom:F++F++F
+author:Brendan Leder
+description:A tall leaning tree
+angle:22
+axiom:F
 rules:
 {
-F=F-F++F-F
+F=1/1FF-[2-F+F+F]+[3+F-F-F]
+F=1/1FF-[2-F+F+F]+[3+F-F-F]
+F=1/1FF+[2+F-F-F]-[3-F+F+F]
 }
-generations:3
+generations:4
 >
-direction:0
-length:180
-length_reduction:3
-thickness:9
-thickness_reduction:3
-x:50
-y:300
+colors:
+{
+1=50,50,20
+2=100,100,85
+3=120,95,90
+}
+direction:90
+length:40
+length_reduction:2
+x:400
+y:200
 ]
 [
 <
