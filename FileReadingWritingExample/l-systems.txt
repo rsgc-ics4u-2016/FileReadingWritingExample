@@ -123,7 +123,7 @@ F=2/F[+F]F
 generations:6
 >
 direction:0
-length:1000
+length:1000 
 length_reduction:2
 x:100
 y:250
