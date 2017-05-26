@@ -44,6 +44,33 @@ y:200
 ]
 [
 <
+author:Jamie Haberman
+description:A spindly yellowish shrub
+angle:25
+axiom:X
+rules:
+{
+X=1/0+F1[--X]-F2[++X]+F[--X]-F3[++X]
+X=1/0+F1[--X]-F+F2[--X]-F3[++X]
+X=1/0+F1[--X]-F2[++X]+F3[--X]-F
+F=1/0FF
+}
+generations:5
+>
+colors:
+{
+0=10,40,28
+2=119,100,44
+3=119,58,56
+}
+direction:90
+length:300
+length_reduction:3
+x:400
+y:600
+]
+[
+<
 author:Athena Foo
 description:A tall reed-like form
 angle:10
