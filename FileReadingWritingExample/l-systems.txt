@@ -110,21 +110,21 @@ y:250
 ]
 [
 <
-author:Ashok K. Samal
-description:Plant like form
+author:Andrew Elder
+description:Stick like form
 angle:22.5
 axiom:F
 rules:
 {
 F=5/F[+F][-F]
-F=3/F[-F]F
-F=2/F[+F]F
+F=2/F-[-F]F
+F=2/F-F[+F]F
 }
-generations:6
+generations:4
 >
 direction:0
 length:1000 
-length_reduction:2
+length_reduction:3
 x:100
 y:250
 ]
