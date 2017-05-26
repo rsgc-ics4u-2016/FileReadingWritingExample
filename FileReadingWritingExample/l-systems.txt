@@ -1,5 +1,59 @@
 [
 <
+author:Jeffrey Goldsmith
+description:A circular tumbleweed like L-System
+angle:22
+axiom:FX
+rules:
+{
+X=X
+F=1XFF-[3-F+F+F]+[1+F-F-F]+FX
+}
+generations:4
+>
+colors:
+{
+2=120,70,65
+3=19,39,38
+1=55,74,75
+}
+direction:90
+length:25
+length_reduction:1
+thickness:1
+thickness_reduction:1
+x:250
+y:200
+]
+[
+<
+author:Jeffrey Goldsmith
+description:A blue flower like L-System
+angle:10
+axiom:FX
+rules:
+{
+X=1/1XX
+X=1/1-XX
+X=1/1+XX
+F=F++[2FFFF]
+}
+generations:6
+>
+colors:
+{
+2=50,9,76
+1=120,60,46
+}
+direction:180
+length:50
+length_reduction:1
+thickness:1
+thickness_reduction:1
+x:250
+y:200
+]
+[
 author: Andrew Elder
 description:Bird's Nest
 angle:10
@@ -447,4 +501,3 @@ length:1000
 length_reduction:3
 x:100
 y:250
-]
