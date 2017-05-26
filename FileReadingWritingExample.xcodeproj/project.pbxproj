@@ -10,6 +10,7 @@
 		813F23871ECA0FF200108A8C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F23861ECA0FF200108A8C /* main.swift */; };
 		813F238F1ECA100200108A8C /* LineWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F238D1ECA100200108A8C /* LineWriter.swift */; };
 		813F23901ECA100200108A8C /* LineReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F238E1ECA100200108A8C /* LineReader.swift */; };
+		81E2E30B1ED8A97700B3D2C8 /* Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E2E30A1ED8A97700B3D2C8 /* Gradient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,6 +31,7 @@
 		813F238D1ECA100200108A8C /* LineWriter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineWriter.swift; sourceTree = "<group>"; };
 		813F238E1ECA100200108A8C /* LineReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineReader.swift; sourceTree = "<group>"; };
 		81B2891C1ED5AD0B00C3569B /* l-systems.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = "l-systems.txt"; path = "FileReadingWritingExample/l-systems.txt"; sourceTree = "<group>"; };
+		81E2E30A1ED8A97700B3D2C8 /* Gradient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Gradient.swift; path = FileReadingWritingExample/Gradient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXGroup;
 			children = (
 				81B2891C1ED5AD0B00C3569B /* l-systems.txt */,
+				81E2E30A1ED8A97700B3D2C8 /* Gradient.swift */,
 				813F23851ECA0FF200108A8C /* FileReadingWritingExample */,
 				813F23841ECA0FF200108A8C /* Products */,
 			);
@@ -132,6 +135,7 @@
 				813F238F1ECA100200108A8C /* LineWriter.swift in Sources */,
 				813F23901ECA100200108A8C /* LineReader.swift in Sources */,
 				813F23871ECA0FF200108A8C /* main.swift in Sources */,
+				81E2E30B1ED8A97700B3D2C8 /* Gradient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
