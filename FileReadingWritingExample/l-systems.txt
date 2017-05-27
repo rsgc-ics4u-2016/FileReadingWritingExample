@@ -1,3 +1,50 @@
+
+[
+<
+author:Mark McCutcheon
+description:A Bush
+angle:25
+axiom:[FX]+[FX]+[FX]
+rules:
+{
+F=2/0FF-[1-F+F]+[2+F-F]
+F=1/0FF+[1+F-F]+[2+F-F]
+X=0FF+[1+F]+[2-F]
+}
+generations:5
+>
+colors:
+{
+0=Brown
+1=Green
+2=Lighter Green
+}
+direction:00
+length:10
+length_reduction:2
+x:300
+y:10
+]
+[
+<
+author:Mark McCutcheon
+description:A simple Bush thingy (Original)
+angle:11
+axiom:++++[FF]++[FF]++[FF]++[FF]
+rules:
+{
+F=[FF-Y]-[FF+Y]
+Y=[FFF+Z]-[FFF-Z]
+Z=[F++]+[F--]
+}
+generations:5
+>
+direction:00
+length:10
+length_reduction:2
+x:300
+y:10
+]
 [
 <
 author:Puneet Bagga
