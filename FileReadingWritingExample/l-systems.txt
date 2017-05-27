@@ -1,5 +1,49 @@
 [
 <
+author:Puneet Bagga
+description:A Turquoise and Purple flower like L-System
+angle:300
+axiom:F-F-F-F-F-F
+rules:
+{
+F=1F-2X++1F+2F-1X+2F
+X=1F-2X+1F++2X+1F+2X
+}
+generations:5
+>
+colors:
+{
+1=288,80,36
+2=174,71,88
+}
+direction:00
+length:2
+length_reduction:1
+x:250
+y:250
+]
+[
+<
+author:Puneet Bagga
+description:A cloud like system
+angle:90
+axiom:F-F-F-F
+rules:
+{
+F=4/F+FF-FF-F-F+F+F
+F=1/F-FF+FF+F+F-F-F
+F=1/F+FF+FF-F+F-F-F
+}
+generations:5
+>
+direction:00
+length:3
+length_reduction:1
+x:200
+y:200
+]
+[
+<
 author:Carlos Noble Cerveira
 description:Lightning Bolt
 angle:15
@@ -553,3 +597,4 @@ length:1000
 length_reduction:3
 x:100
 y:250
+]
