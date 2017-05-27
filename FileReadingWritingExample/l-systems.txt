@@ -454,21 +454,3 @@ direction:0
 length:300
 length_reduction:3
 ]
-[
-<
-author: Mark McCutcheon
-description:A snowflake
-angle:
-axiom:
-rules:
-{
-
-}
-generations:4
->
-direction:00
-length:50
-length_reduction:3
-x:300
-y:200
-]
