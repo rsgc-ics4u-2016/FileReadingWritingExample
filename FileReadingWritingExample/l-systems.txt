@@ -22,7 +22,6 @@ length_reduction:1
 x:250
 y:250
 ]
-
 [
 <
 author:Puneet Bagga
@@ -43,7 +42,58 @@ length_reduction:1
 x:200
 y:200
 ]
-
+[
+<
+author:Carlos Noble Cerveira
+description:Lightning Bolt
+angle:15
+axiom:1F
+rules:
+{
+F=1/X+F[+++F]
+F=1/Y-F
+F=1/FF[---F]
+X=1/F-X
+X=1/XX[+++F--F]
+Y=1/F+Y[--F]
+Y=1/F+Y[++F-F]
+Y=1/YY
+}
+generations:6
+>
+direction:270
+length:100
+length_reduction:1.7
+x:250
+y:450
+colors:
+{
+1=206,14,97
+}
+]
+[
+<
+author:Carlos Noble Cerveira
+description:Dandelion
+angle:20
+axiom:2F
+rules:
+{
+F=X[++F][+F][-F][--F]
+X=XX
+}
+generations:4
+>
+direction:90
+length:200
+length_reduction:2
+x:150
+y:20
+colors:
+{
+2=132,3,98
+}
+]
 [
 <
 author:Jeffrey Goldsmith
@@ -547,3 +597,4 @@ length:1000
 length_reduction:3
 x:100
 y:250
+]
