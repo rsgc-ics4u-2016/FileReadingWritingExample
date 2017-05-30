@@ -13,12 +13,6 @@ X=0FF+[1+F]+[2-F]
 }
 generations:5
 >
-colors:
-{
-0=Brown
-1=Green
-2=Lighter Green
-}
 direction:00
 length:10
 length_reduction:2
