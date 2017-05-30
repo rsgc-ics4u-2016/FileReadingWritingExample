@@ -1,6 +1,60 @@
 
 [
 <
+author:Nicholas Jones
+description:Drip Grate
+angle:90
+axiom:XY
+rules:
+{
+X=F[−X][X]F[−X]+FX
+Y=FF
+}
+generations:4
+>
+colors:
+{
+1=Black
+2=Red
+3=Blue
+}
+direction:0
+length:25
+length_reduction:2
+x:100
+y:100
+]
+<
+author:Nicholas Jones
+description:Palm Tree
+angle:10
+axiom: 1[TTTTTTT]2[[X[[BBBBB]+++[BBBB]++[BBB]][---BBB]] [Z[[CCCCC]--[CCCC]---[CC]]+++[CCC]][Y-B][WC]]
+rules:
+{
+T=FFF++++++++++++FF++++++F++++++FF---------------ff---------
+X=+++++++++ffffffffffffff+++++++++
+Y=f+++++++++fffffffffffffff+++++++
+W=f+++++++++fffffffffffffff---------f+++
+Z=+++++++++ffffffffffffff---------fff
+B=FF+++F------------------f++++++++++++++++
+C=FF---F++++++++++++++++++f----------------
+}
+generations:1
+>
+colors:
+{
+1=Brown
+2=Green
+3=Black
+}
+direction:0
+length:25
+length_reduction:3
+x:235
+y:40
+]
+[
+<
 author:Mark McCutcheon
 description:A Bush
 angle:25
