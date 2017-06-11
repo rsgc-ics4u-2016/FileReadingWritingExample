@@ -27,7 +27,7 @@ y:100
 author:Nicholas Jones
 description:Palm Tree
 angle:10
-axiom: 1[TTTTTTT]2[[X[[BBBBB]+++[BBBB]++[BBB]][---BBB]] [Z[[CCCCC]--[CCCC]---[CC]]+++[CCC]][Y-B][WC]]
+axiom:1[TTTTTTT]2[[X[[BBBBB]+++[BBBB]++[BBB]][---BBB]][Z[[CCCCC]--[CCCC]---[CC]]+++[CCC]][Y-B][WC]]
 rules:
 {
 T=FFF++++++++++++FF++++++F++++++FF---------------ff---------
