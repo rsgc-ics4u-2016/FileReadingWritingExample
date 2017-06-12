@@ -61,18 +61,12 @@ angle:25
 axiom:[FX]+[FX]+[FX]
 rules:
 {
-F=2/0FF-[1-F+F]+[2+F-F]
-F=1/0FF+[1+F-F]+[2+F-F]
-X=0FF+[1+F]+[2-F]
+F=2/FF-[-F+F]+[+F-F]
+F=1/FF+[+F-F]+[+F-F]
+X=FF+[+F]+[-F]
 }
 generations:5
 >
-colors:
-{
-0=Brown
-1=Green
-2=Lighter Green
-}
 direction:00
 length:10
 length_reduction:2
